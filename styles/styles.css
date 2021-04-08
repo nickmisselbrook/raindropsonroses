@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+.gallery-1 {
+    grid-area: gallery-1;
+}
+
+.gallery-2 {
+    grid-area: gallery-2;
+}
+
+.gallery-3 {
+    grid-area: gallery-3;
+}
+
+.gallery-4 {
+    grid-area: gallery-4;
+}
+
+.gallery-5 {
+    grid-area: gallery-5;
+}
+
+.gallery-6 {
+    grid-area: gallery-6;
+}
+
+.gallery-7 {
+    grid-area: gallery-7;
+}
+
+.gallery-8 {
+    grid-area: gallery-8;
+}
+
+.gallery-9 {
+    grid-area: gallery-9;
+}
+
+.gallery-10 {
+    grid-area: gallery-10;
+}
+
+.gallery-11 {
+    grid-area: gallery-11;
+}
+
+.gallery-12 {
+    grid-area: gallery-12
+}
+
+footer {
+    grid-area: footer;
+}
+
+
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    grid-template-areas: 
+        "header header header"
+        "main main main"
+        "gallery-1 gallery-2 gallery-3"
+        "gallery-4 gallery-5 gallery-6"
+        "gallery-7 gallery-8 gallery-9"
+        "gallery-10 gallery-11 gallery-12"
+        "footer footer footer";
+}
