@@ -11,6 +11,29 @@
     border: 2px solid;
 }*/
 
+body {
+    background-color: #e9efeb;
+}
+
+h1 {
+    color: #c46fb1;
+    font-size: 200%;
+}
+
+h2 {
+    color: #344319;
+    font-size: 150%;
+}
+
+h3 {
+    color: #6d8251;
+    font-size: 133%
+}
+
+p {
+    font-size: 100%;
+}
+
 nav {
     grid-area: nav;
     background-color: #C8A2C8;
@@ -31,13 +54,13 @@ nav ul li {
 nav a {
     font-size: 20px;
     font-weight: bold;
-    color: green;
+    color: #FFFFFF;
     transition: all 0.5s ease 0s;
     text-transform: uppercase;
 }
 
 nav a:hover {
-    color: chocolate;
+    color: #FFFFFF;
     font-weight: bold;
     text-shadow: 1px 1px 0px #000000;
 }
