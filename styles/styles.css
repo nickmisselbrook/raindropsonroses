@@ -23,15 +23,24 @@ h1 {
 h2 {
     color: #344319;
     font-size: 150%;
+    padding: 20px 0px;
+    font-family: "Poppins" , "Arial", "Sans-Serif";
 }
 
 h3 {
     color: #6d8251;
-    font-size: 133%
+    font-size: 133%;
+    padding: 10px 0px;
 }
 
 p {
     font-size: 100%;
+    line-height: 1.4em;
+    padding: 5px 0px;
+}
+
+hr {
+    margin: 20px 0px;
 }
 
 nav {
@@ -71,10 +80,13 @@ header {
     justify-self: stretch;
     text-align: center;
     align-self: stretch;
+    vertical-align: middle;
 }
 
 header img {
-    display: inline;
+    float: left;
+    height: 150px;
+    opacity: 0.5;
 }
 
 header h1 {
@@ -84,7 +96,7 @@ header h1 {
 main {
     grid-area: main;
     max-width: 80%;
-    justify-self: center;
+    padding: 30px 0px;
 }
 
 .gallery-1 {
@@ -137,6 +149,9 @@ main {
 
 footer {
     grid-area: footer;
+    background-color: #C8A2C8;
+    text-align: center;
+    padding: 10px;
 }
 
 
@@ -155,4 +170,9 @@ footer {
         "gallery-7 gallery-8 gallery-9"
         "gallery-10 gallery-11 gallery-12"
         "footer footer footer";
+}
+
+.centering {
+    justify-self: center;
+    align-self: center;
 }
