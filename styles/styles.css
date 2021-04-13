@@ -75,22 +75,34 @@ nav a:hover {
 }
 
 header {
-    display: inline-block;
     grid-area: header;
-    justify-self: stretch;
-    text-align: center;
-    align-self: stretch;
-    vertical-align: middle;
+    justify-self: center;
+    align-self: center;
 }
 
-header img {
+.header-img {
+    grid-area: header;
+    position: relative;
+    display: inline-block;
+}
+
+header .header-img {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+}
+
+.header-img img {
     float: left;
-    height: 150px;
-    opacity: 0.5;
+    width: 99vw;
 }
 
 header h1 {
-    display: inline;
+    text-align: center;
+    position: relative;
+    margin: auto;
+    padding: auto;
 }
 
 main {
@@ -160,7 +172,7 @@ footer {
     width: 100%;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 10%, repeat(7, 1fr);
-    grid-gap: 20px;
+    grid-gap: 0;
     grid-template-areas: 
         "nav nav nav"
         "header header header"
